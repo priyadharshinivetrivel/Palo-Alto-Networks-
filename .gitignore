@@ -1,0 +1,24 @@
+# Python virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache & compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter & IDEs
+.ipynb_checkpoints
+.vscode/
+.idea/
+
+# Streamlit local config
+.streamlit/secrets.toml
+
+# Scratch files & logs
+scratch*
+*.log

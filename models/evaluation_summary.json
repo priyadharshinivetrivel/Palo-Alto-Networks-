@@ -1,0 +1,73 @@
+{
+    "best_model_name": "Logistic Regression",
+    "metrics": {
+        "Logistic Regression": {
+            "Accuracy": 0.7483,
+            "Precision": 0.5781,
+            "Recall": 0.7872,
+            "F1-Score": 0.6667,
+            "ROC-AUC": 0.821,
+            "ConfusionMatrix": [
+                [
+                    146,
+                    54
+                ],
+                [
+                    20,
+                    74
+                ]
+            ]
+        },
+        "Random Forest": {
+            "Accuracy": 0.7721,
+            "Precision": 0.6667,
+            "Recall": 0.5745,
+            "F1-Score": 0.6171,
+            "ROC-AUC": 0.7903,
+            "ConfusionMatrix": [
+                [
+                    173,
+                    27
+                ],
+                [
+                    40,
+                    54
+                ]
+            ]
+        },
+        "XGBoost": {
+            "Accuracy": 0.7857,
+            "Precision": 0.6703,
+            "Recall": 0.6489,
+            "F1-Score": 0.6595,
+            "ROC-AUC": 0.8081,
+            "ConfusionMatrix": [
+                [
+                    170,
+                    30
+                ],
+                [
+                    33,
+                    61
+                ]
+            ]
+        },
+        "LightGBM": {
+            "Accuracy": 0.7959,
+            "Precision": 0.6889,
+            "Recall": 0.6596,
+            "F1-Score": 0.6739,
+            "ROC-AUC": 0.8159,
+            "ConfusionMatrix": [
+                [
+                    172,
+                    28
+                ],
+                [
+                    32,
+                    62
+                ]
+            ]
+        }
+    }
+}
